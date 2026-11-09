@@ -1,0 +1,20 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-plate: #ffd200;
+  --color-plate-blue: #003da5;
+  --font-sans: 'Assistant', 'Segoe UI', system-ui, -apple-system, sans-serif;
+  --font-plate: 'Arial Narrow', 'Roboto Condensed', Arial, sans-serif;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  @apply bg-slate-50 text-slate-900 antialiased;
+}
+
+:focus-visible {
+  @apply outline-2 outline-offset-2 outline-blue-600;
+}
